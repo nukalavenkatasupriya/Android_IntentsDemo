@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="movescreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SecondScreen"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:onClick="googledata"
+        />
+    <EditText
+        android:id="@+id/et1"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Message"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sendmsg"
+        android:onClick="messagedata"
+        />
+</LinearLayout>
